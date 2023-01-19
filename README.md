@@ -15,4 +15,4 @@ else {
 
 #Settings for html template
 
-data-bs-theme="<?php echo "$modtime"; ?>"
+data-bs-theme="$modtime"

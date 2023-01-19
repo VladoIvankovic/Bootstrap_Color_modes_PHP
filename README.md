@@ -3,7 +3,7 @@ Automatic setting of light and dark mode for Bootstrap in PHP
 
 #Selecting night or day mode using php
 
-$time = date("h:i");
+$time = date("H:I");
 $sunoff = date_sunset(time());
 $sunon = date_sunrise(time());
 if ($time < $sunoff && $time > $sunon){

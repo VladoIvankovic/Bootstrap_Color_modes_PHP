@@ -1,6 +1,6 @@
 <?php
 //Setting of light and dark
-$time = date("h:i");
+$time = date("H:I");
 $sunoff = date_sunset(time());
 $sunon = date_sunrise(time());
 if ($time < $sunoff && $time > $sunon){
